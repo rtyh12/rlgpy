@@ -17,7 +17,7 @@ Example:
 import scrapy
 from scrapy.http import Response
 
-from rlgpy.scraper.items import (
+from ..items import (
     RlAchievementLoader,
     RlAchievement
 )

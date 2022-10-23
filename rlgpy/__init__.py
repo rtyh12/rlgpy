@@ -1,2 +1,2 @@
 
-from rlgpy import api
+from . import api

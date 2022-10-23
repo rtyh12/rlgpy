@@ -5,8 +5,8 @@ from typing import Dict, Any, List
 
 from scrapy.spiders import Spider
 
-from rlgpy.scraper.runners import SafeSpiderRunner
-from rlgpy.scraper.spiders import (
+from .scraper.runners import SafeSpiderRunner
+from .scraper.spiders import (
     ItemSpider,
     TradeSpider,
     AchievementSpider
